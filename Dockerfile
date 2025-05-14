@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copiar archivos necesarios
 COPY requirements.txt .
-COPY etl_to_mongo.py .
+COPY salario.py .
 COPY eda_dataset.csv .
 
 # Instalar dependencias
